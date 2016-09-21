@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+h1,h2 {
+  font-family: "Pinyon Script", cursive;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 350%;
+}
+
+blockquote {
+  border-left: none;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 250%;
+}
+body {
+ color: rgb(0,20,100);
+  background-image: url( "http://www.corespirit.com/wp-content/uploads/2015/08/grimoires-history-ov-magick-books-core-spirit.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  
+  min-height: 100vh;
+}
+.container {
+  background-image: url("https://s32.postimg.org/qht8plmrp/parchment.png");
+  background-size: cover;
+  
+  padding: 50px;
+  max-width: 70%;
+ 
+}
+
+.choice {
+  min-height: 60px;
+  word-wrap: word-wrap;
+}
+
+.btn {
+  box-shadow: inset 0px 0px 19px 0px #121A78,-3px 5px 14px 1px #DDDDDD;
+  background-color: rgba(100,50,200, 0.8);
+  transition: 1s all;
+  font-weight: bold;
+  white-space:normal;
+  
+}
+.current, .current:active, .btn:active, .btn:hover {
+  background-color: rgba(91,192,222, 1);
+}
+
+
